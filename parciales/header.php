@@ -58,6 +58,9 @@ if(!isset($_SESSION["login_usuario"])){
                     <a class="nav-link" href="<?= $url_base?>secciones/notas/">Notas</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="<?= $url_base?>secciones/matricula/">Matricula</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link text-danger" href="<?= $url_base?>logout.php"><i class="bi bi-box-arrow-right"></i>
                         Logout
                     </a>
